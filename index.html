@@ -1,0 +1,190 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Simple App</title>
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.css" />
+		<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+		<script src="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/> 
+	</head>
+	<body>
+		<div data-role="page" id="home">
+		<header data-role="header">
+			<h1>Simple App</h1>
+		</header>
+		<article data-role="content">
+			<ul data-role="listview" data-filter="true">
+				<li>
+					<a href="#bills">
+						<h1>Bills</h1>
+						<img src="img/bills.png" alt="bills">
+						<p>Tab containing info on bills</p>
+					</a>
+				</li>
+				<li>
+					<a href="#benefits">
+						<h1>Benefits</h1>
+						<img src="img/benefits.png" alt="benefits">
+						<p>Tab containing info on benefits</p>
+					</a>
+				</li>
+			</ul>
+		</article>
+
+		<footer data-role="footer" data-position="fixed">
+			<nav data-role="navbar">
+				<ul>
+					<li><a href="#" data-icon="home">Home</a></li>
+					<li><a href="#" data-icon="tools">Settings</a></li>
+				</ul>
+			</nav>
+		</footer>
+	</div><!--page-->
+
+	<div data-role="page" id="bills">
+		<header data-role="header">
+			<h1>Bills</h1>
+			<a href="#home" data-icon="back">Back</a>
+			<a href="#home" data-icon="home">Home</a>
+		</header>
+		<article data-role="content">
+			<ul data-role="listview" data-filter="true">
+				<li>
+					<a href="#household">
+						<h1>HouseHold Bills</h1>
+					</a>
+				</li>
+				<li>
+					<a href="#rent">
+						<h1>Rent</h1>
+					</a>
+				</li>
+				<li>
+					<a href="#mobile">
+						<h1>Mobile Top-Up</h1>
+					</a>
+				</li>
+			</ul>
+		</article>
+		<footer data-role="footer" data-position="fixed">
+			<nav data-role="navbar				
+				<ul>
+					<li><a href="#" data-icon="home">Home</a></li>
+					<li><a href="#" data-icon="tools">Settings</a></li>
+				</ul>
+			</nav>
+		</footer>
+	</div><!--page-->
+
+	<div data-role="page" id="benefits">
+		<header data-role="header">
+			<h1>Benefits</h1>
+			<a href="#home" data-icon="back">Back</a>
+			<a href="#home" data-icon="home">Home</a>
+		</header>
+		<article data-role="content">
+			<ul data-role="listview" data-filter="true">
+				<li>
+					<a href="#benefit1">
+						<h1>Benefit Payment 1</h1>
+					</a>
+				</li>
+				<li>
+					<a href="#benefit2">
+						<h1>Benefit Payment 2</h1>
+					</a>
+				</li>
+			</ul>
+		</article>
+		<footer data-role="footer" data-position="fixed">
+			<nav data-role="navbar">
+				<ul>
+					<li><a href="#" data-icon="home">Home</a></li>
+					<li><a href="#" data-icon="tools">Settings</a></li>
+				</ul>
+			</nav>
+		</footer>
+	</div><!--page-->
+
+	<div data-role="page" id="benefit1">
+		<header data-role="header">
+			<h1>Benefits</h1>
+			<a href="#home" data-icon="back">Back</a>
+			<a href="#home" data-icon="home">Home</a>
+		</header>
+		<article data-role="content">
+			<ul data-role="listview" data-filter="true">
+				<li>
+					<h1>Social Care Benefit</h1>
+				</li>
+
+			</ul>
+		</article>
+		<footer data-role="footer" data-position="fixed">
+			<nav data-role="navbar">
+				<ul>
+					<li><a href="#" data-icon="home">Home</a></li>
+					<li><a href="#" data-icon="tools">Settings</a></li>
+				</ul>
+			</nav>
+		</footer>
+	</div><!--page-->
+
+	<div data-role="page" id="benefit2">
+		<header data-role="header">
+			<h1>Benefits</h1>
+			<a href="#home" data-icon="back">Back</a>
+			<a href="#home" data-icon="home">Home</a>
+		</header>
+		<article data-role="content">
+			<ul data-role="listview" data-filter="true">
+				<li>
+					<h1>Health Care Benefit</h1>
+				</li>
+
+			</ul>
+		</article>
+		<footer data-role="footer" data-position="fixed">
+			<nav data-role="navbar">
+				<ul>
+					<li><a href="#" data-icon="home">Home</a></li>
+					<li><a href="#" data-icon="tools">Settings</a></li>
+				</ul>
+			</nav>
+		</footer>
+	</div><!--page-->
+
+	<div data-role="page" id="household">
+		<header data-role="header">
+			<h1>Benefits</h1>
+			<a href="#home" data-icon="back">Back</a>
+			<a href="#home" data-icon="home">Home</a>
+		</header>
+		<article data-role="content">
+			<ul data-role="listview" data-filter="true">
+				<li>
+					<h1>Gas bill</h1>
+				</li>
+				<li>
+					<h1>Electricity bill</h1>
+				</li>
+				<li>
+					<h1>Water bill</h1>
+				</li>
+				<li>
+					<h1>others</h1>
+				</li>
+			</ul>
+		</article>
+		<footer data-role="footer" data-position="fixed">
+			<nav data-role="navbar">
+				<ul>
+					<li><a href="#" data-icon="home">Home</a></li>
+					<li><a href="#" data-icon="tools">Settings</a></li>
+				</ul>
+			</nav>
+		</footer>
+	</div><!--page-->
+
+	</body>
+</html>
